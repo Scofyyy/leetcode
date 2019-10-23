@@ -21,5 +21,11 @@
     <ClCompile Include="2_ThreeSum.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="3_.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="5_longestPalindrome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
