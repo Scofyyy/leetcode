@@ -33,7 +33,7 @@ class Solution
             {
                 ans.push_back(matrix[i][r]);
             }
-            if (++r < l) //update right board
+            if (--r < l) //update right board
             {
                 break;
             }
