@@ -8,7 +8,7 @@ class Solution
     vector<vector<int>> generateMatrix(int n)
     {
         vector<vector<int>> res(n,vector<int> (n,0));
-        nt u = 0;
+        int u = 0;
         int d = n-1;
         int l = 0;
         int r = n-1;
