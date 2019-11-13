@@ -1,10 +1,12 @@
 #include <algorithm>
 #include <vector>
 using namespace std;
-//±©Á¦·¨
-class Solution {
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+class Solution
+{
 public:
-	int maxArea(vector<int>& height) {
+	int maxArea(vector<int> &height)
+	{
 		int Maxarea = 0;
 		for (int i = 0; i < height.size(); i++)
 		{
@@ -15,6 +17,5 @@ public:
 			}
 		}
 		return Maxarea;
-
 	}
 };

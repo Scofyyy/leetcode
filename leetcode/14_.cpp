@@ -3,10 +3,11 @@
 #include <algorithm>
 using namespace std;
 
-
-class Solution {
+class Solution
+{
 public:
-	string longestCommonPrefix(vector<string>& strs) {
+	string longestCommonPrefix(vector<string> &strs)
+	{
 		string ans = "";
 		if (strs.empty())
 		{
@@ -32,6 +33,5 @@ public:
 			ans = ans + min[j];
 		}
 		return ans;
-
 	}
 };
