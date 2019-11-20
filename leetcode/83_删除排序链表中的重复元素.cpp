@@ -4,26 +4,26 @@
 //不等，则p=p->next
 #include "ListNode.h"
 using namespace std;
-class Solution{
-    public:
-    ListNode* deleteDuplicates(ListNode* head)
+class Solution
+{
+public:
+    ListNode *deleteDuplicates(ListNode *head)
     {
-        if(!head||!head->next)
+        if (!head || !head->next)
         {
             return head;
         }
-        ListNode *p=head;
-        while(p!=nullptr&&p->next!=nullptr)
+        ListNode *p = head;
+        while (p != nullptr && p->next != nullptr)
         {
-            if(p->val==p->next->val)
+            if (p->val == p->next->val)
             {
-                p->next=p->next->next;
+                p->next = p->next->next;
             }
             else
             {
-                p=p->next;
+                p = p->next;
             }
-            
         }
         return head;
     }
