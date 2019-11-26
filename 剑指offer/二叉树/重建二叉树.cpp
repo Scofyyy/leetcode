@@ -4,6 +4,7 @@
 using namespace std;
 class Solution
 {
+    public:
     BinaryTreeNode *reConstructTree(vector<int> &pre, vector<int> &vin)
     {
         if (pre.empty() || vin.empty() || pre.size() != vin.size())

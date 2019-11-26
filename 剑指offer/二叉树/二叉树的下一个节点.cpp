@@ -2,6 +2,7 @@
 using namespace std;
 class Solution
 {
+    public:
     BinaryTreeNode *nextTreeNode(BinaryTreeNode *node)
     {
         if (node == nullptr)
