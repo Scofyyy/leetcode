@@ -17,7 +17,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
+# .json
+.vscode/*
 # =========================
 # Operating System Files
 # =========================
