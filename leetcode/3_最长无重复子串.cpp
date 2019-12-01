@@ -1,6 +1,8 @@
 #include <vector>
 #include <map>
+#include <string>
 #include <algorithm>
+#include <iostream>
 using namespace std;
 
 class Solution {
