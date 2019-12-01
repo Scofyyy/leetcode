@@ -14,6 +14,7 @@ public:
 			return ans;
 		}
 		string min = strs[0];
+		//找到最短字符串
 		for (int i = 0; i < strs.size(); i++)
 		{
 			if (strs[i].size() < min.size())
