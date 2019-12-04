@@ -1,4 +1,4 @@
-//实现x的n次方
+
 using namespace std;
 
 class Solution {
