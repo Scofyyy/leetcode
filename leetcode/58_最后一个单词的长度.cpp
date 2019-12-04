@@ -30,21 +30,19 @@ class Solution
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-        int res = 0;
-        
-        if(s.length() == 0)
-            return 0;
-        
-        for(int i = s.length()-1; i >= 0; i--)
+        int ans = 0;
+        for(int i=s.size()-1;i>=0;i--)
         {
-            if(s[i] != ' ')
-                res++;
+            if(s[i]!=' ')
+            {
+                ans++;
+            }
             else
             {
-                if(res)
-                    break;
+                if(ans)
+                break;
             }
         }
-        return res;
+        return ans;
     }
 };
