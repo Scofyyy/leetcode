@@ -1,6 +1,5 @@
 #include <vector>
 using namespace std;
-
 class Solution
 {
     vector<int> bubble_sort(vector<int> &nums)
