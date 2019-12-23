@@ -22,3 +22,24 @@ public:
         return stair[n];
     }
 };
+//用这个fib来解也舒服的一批
+class Solution {
+public:
+    int climbStairs(int n) {
+        int result[2]={0,1};
+        if(n<2)
+        {
+            return result[n];
+        }
+        int one = 1;
+        int two = 1;
+        int ans = 0;
+        for(int i=2;i<=n;i++)
+        {
+            ans = one + two;
+            one = two;
+            two = ans;
+        }
+        return ans;
+    }
+};
