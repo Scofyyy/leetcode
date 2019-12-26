@@ -16,5 +16,5 @@ using namespace std;
      {
          return false;
      }
-     return helper(root1->left,root2->left)&&helper(root1->right&&root2->left);
+     return helper(root1->left,root2->right)&&helper(root1->right,root2->left);
  }
